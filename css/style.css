@@ -1,0 +1,203 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+html{
+  font-size: 10px;
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+header, .hero,.main, footer{
+  border: .1px solid #BDBDBD;
+}
+/* -----HEADER----- */
+header{
+  height: 35px;
+  padding: 10px;
+}
+
+nav ul{
+
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* -----HEADER END----- */
+
+.hero{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  background: url('') ;
+  background: cover;
+}
+
+.heroImage{
+  width: 60%;
+  height: 88%;
+  border-radius: 2px;
+  overflow: hidden;
+  float: left;
+  margin: 20px;
+}
+
+.heroImage img{
+
+}
+
+/* Sign Up */
+.signUp{
+  width: 28%;
+  float: left;
+  margin: 20px;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.signup-form {
+  padding: 30px;
+  border-radius: 3px;
+  background: #f5f5f5;
+  margin: 0 auto;
+}
+
+.signup-form legend {
+  width: 100%;
+  line-height: 38px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #565656;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0 auto 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  padding: 7px;
+  border: 1px solid #555;
+  border-radius: 2px;
+  background: #fcfcfc;
+  margin: 10px auto;
+  transition: opacity 0.4s;
+}
+
+button[type="submit"] {
+  height: auto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #83a603;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+button[type="submit"]:focus {
+ /* Restore desirable focus behavior
+ in non-webkit browsers like Firefox */
+ outline: auto 2px #87ceeb;
+ /* Preseve default focus behavior in webkit browsers */
+ outline: auto 5px -webkit-focus-ring-color;
+ box-shadow: 0;
+}
+
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #84a51f;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+.signup-form p {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0 0;
+  color: #696969;
+}
+
+.signup-form a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid #bbb;
+}
+
+.signup-form a:hover {
+  border-color: #999;
+  color: #777;
+}
+
+/* END Sign Up */
+
+
+.main{
+  height: 350px;
+  width: 100%;
+}
+
+.info{
+  width: 30%;
+  float: left;
+  margin: 20px;
+}
+
+.infoImage{
+  height:200px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.infoImage img{
+  display: block;
+  margin: 0 auto;
+}
+
+.info p{
+  margin: 10px auto;
+  font-size: 12px;
+}
+
+.info button{
+  padding: 5px;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  background: #83a603;
+  cursor: pointer;
+}
+
+footer{
+  height: 100px;
+}
