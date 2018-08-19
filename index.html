@@ -8,16 +8,40 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li> <img src="" alt=""> </li>
-          <li>Review Your Doctor</li>
-          <li>Find a Doctor</li>
-          <li>Family</li>
-          <li>Health 101</li>
-          <li>Living Well</li>
-        </ul>
+      <ul>
+        <li class="currentItem"><a href="#">Home</a></li>
+        <li><a href="#">Menu 1</a>
+          <ul>
+            <li><a href="#">Sub Menu 1</a></li>
+            <li><a href="#">Sub Menu 2</a></li>
+            <li><a href="#">Sub Menu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Menu 2</a>
+          <ul>
+            <li><a href="#">Sub Menu 1</a></li>
+            <li><a href="#">Sub Menu 2</a></li>
+            <li><a href="#">Sub Menu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Menu 3</a>
+          <ul>
+            <li><a href="#">Sub Menu 1</a></li>
+            <li><a href="#">Sub Menu 2</a></li>
+            <li><a href="#">Sub Menu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Menu 4</a></li>
+        <li><a href="#">Menu 5</a></li>
+        <li><a href="#">Menu 6</a></li>
+      </ul>
       </nav>
     </header>
+
+
+
+
+
 <!-- main slider and form -->
     <section class="hero">
       <section class="heroImage">
@@ -27,7 +51,7 @@
       <aside class="signUp">
         <form role="form" action="/signup" accept-charset="UTF-8" method="post" class="signup-form">
           <fieldset>
-            <legend>Sign Up with CareDash to edit your provider profile.</legend>
+            <legend>Sign Up with CareDash to Edit your Provider Profile</legend>
             <label for="user-firstName">First Name</label>
             <input type="text" placeholder="John" name="user-firstName" id="user-firstName" required/>
             <label for="user-lastName">Last Name</label>
@@ -38,7 +62,7 @@
             <input placeholder="1234passw0rd" type="password" name="user-password" id="user-password" required/>
             <label for="user-password">Confirm Password</label>
             <input placeholder="1234passw0rd" type="password" name="user-password" id="user-password" required/>
-            <button type="submit">Sign up</button>
+            <button type="submit">Sign Up!</button>
             <p>Already have an account? <a href="/login">Log in</a></p>
           </fieldset>
         </form>
@@ -47,7 +71,7 @@
     </section>
     <!-- call to action -->
     <section class="main">
-
+      <h2>At CareDash, we want to make finding the right doctor easy.</h2>
       <section class="info">
         <section class="infoImage">
           <img src="assets/458b7e10005981.560dde8cec247.jpg" alt="">
@@ -71,6 +95,31 @@
       </section>
 
     </section>
-    <footer></footer>
+    <footer>
+      <ul class="care">
+        <li> <h3>CareDash</h3> </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Write A Review</a></li>
+      </ul>
+
+      <ul class="specialists">
+        <li> <h3>Specialists</h3> </li>
+        <li><a href="#">Primary Care Physicians</a></li>
+        <li><a href="#">Pediatricians</a></li>
+        <li><a href="#">Optometrists</a></li>
+        <li><a href="#">Dentists</a></li>
+      </ul>
+
+      <ul class="follow">
+        <li> <h3>Follow Us</h3> </li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+
+    </footer>
   </body>
 </html>
